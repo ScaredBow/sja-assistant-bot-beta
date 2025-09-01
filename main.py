@@ -2,7 +2,7 @@ import discord
 import os # default module
 from dotenv import load_dotenv
 
-load_dotenv(".gitignore.env") # load all the variables from the env file
+load_dotenv() # load all the variables from the env file
 TOKEN = os.getenv("DISCORD_TOKEN")
 bot = discord.Bot()
 
